@@ -1,4 +1,4 @@
-var perlin = require("https://github.com/josephg/noisejs/blob/master/perlin.js");
+
 var map = [
   [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], ],
   [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], ],
