@@ -155,7 +155,7 @@ var marchMap = function (j, k) {
   return j;
 };
 var getData = function (seed, x, y) {
-  return mapData[floor((mapData.length-1)*Math.random())+1];
+  return mapData[Math.floor((mapData.length-1)*Math.random())+1];
 };
 for (var i = 0; i < map.length; i ++) {
   for (var e = 0; e < map[i].length; e ++) {
