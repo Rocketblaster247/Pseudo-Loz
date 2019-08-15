@@ -143,7 +143,6 @@ var mapData = [
     [0,0,0,1,1,0,0,0],
   ],
 ];
-var seed = 404;
 var marchMap = function (j, k) {
   for (var i = 0; i < j.length; i ++) {
     for (var e = 0; e < j[i].length; e ++) {
